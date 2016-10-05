@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script> var fullName = document.getElementbyId("first").value + " " + document.getElementbyId("last").value;</script>
 </head>
 <body>
-<input type="text" name="input1" id="first">
-<input type="text" name="input2" id="last">
+<input type="text" name="fname" id="first"/>
+<input type="text" name="lname" id="last"/>
+<input type="button" id="doneButton" onclick="getName();"/>
+<p id="message"></p>
 </body>
 </html>
